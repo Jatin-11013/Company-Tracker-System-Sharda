@@ -615,7 +615,7 @@ def data_entry_form(prefill=None, edit_idx=None):
             "Company Domain":company_domain,"Job Profile":job_profile,
             "Job Location":job_location,"School":", ".join(schools),
             "Program":", ".join(programs),"Specialization":specialization,
-            "CTC (LPA)":f"{ctc:.2f} LPA","Company Current Status":company_status,
+            "CTC (LPA)":f"{ctc:.2f}","Company Current Status":company_status,
             "No. of Positions":str(no_pos),"No. of Registrations":no_reg,
             "Interview Date":str(interview_date),
             **parts,**shorts,
